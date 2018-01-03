@@ -1,0 +1,21 @@
+﻿High-quality data are provided for 3,000 materials that show promise as transparent conductors. The following information has been included:
+
+Spacegroup (a label identifying the symmetry of the material)
+Total number of Al, Ga, In and O atoms in the unit cell 
+Relative compositions of Al, Ga, and In (x, y, z)
+Lattice vectors and angles: lv1, lv2, lv3 (which are lengths given in units of angstroms (10−1010−10 meters) and α, β, γ (which are angles in degrees between 0° and 360°)
+A domain expert will understand the physical meaning of the above information but those with a data mining background may simply use the data as input for their models.
+
+The task for this competition is to predict two target properties:
+
+Formation energy (an important indicator of the stability of a material)
+Bandgap energy (an important property for optoelectronic applications)
+
+File Descriptions:
+Note: For each line of the CSV file, the corresponding spatial positions of all of the atoms in the unit cell (expressed in Cartesian coordinates) are provided as a separate file.
+
+train.csv - contains a set of materials for which the bandgap and formation energies are provided
+
+test.csv - contains the set of materials for which you must predict the bandgap and formation energies
+
+/{train|test}/{id}/geometry.xyz - files with spatial information about the material. The file name corresponds to the id in the respective csv files.
