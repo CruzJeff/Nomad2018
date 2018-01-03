@@ -5,3 +5,13 @@ Innovative materials design is needed to tackle some of the most important healt
 
 
 This competition aims to accomplish this goal by asking participants to develop or apply data analytics/data mining/machine-learning models for the prediction of two target properties: the formation energy (which is an indication of the stability of a new material) and the bandgap energy (which is an indication of the potential for transparency over the visible range) to facilitate the discovery of new transparent conductors and allow for advancements in the above-mentioned technologies.
+
+Roadmap:
+1) Get Baselines to see what type of models may be best for this dataset
+2) Perform data preprocessing and possible feature engineering
+3) Create multiple regression models
+4) Create ensemble model on step 3's regression models
+5) Tweak the data preprocessing/model building further
+
+**Compare Competition Experience to last competition (Ames House Dataset)
+Goal: Top 10% on leaderboard
